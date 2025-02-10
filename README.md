@@ -1,0 +1,21 @@
+This Repository is a collection of data science projects I have worked on in both Python and R
+
+BP.ipynb: Sustainable Energy Investment Prediction
+
+This project utilizes Machine Learning to analyze historical energy and environmental data, identifying countries that require investments in sustainable energy. By leveraging a RandomForestClassifier, the model classifies countries based on key indicators such as electricity access, renewable energy share, energy consumption, and CO₂ emissions. The dataset is processed and structured using pandas, with feature selection and standardization performed through sklearn. Data visualization is achieved using matplotlib and seaborn to generate meaningful insights. The model aims to support decision-making by prioritizing countries in need of investment, facilitating sustainable energy initiatives. The entire pipeline is built in Python and can be easily implemented with the provided dependencies. To run the project, install the necessary libraries, load the Sustainable_Energy.csv dataset, preprocess the data, and train the classifier to generate predictions. This tool provides valuable insights into global energy distribution and investment prioritization for sustainability.
+
+Marketing_Analytics_Regression.pdf
+
+This project applies Marketing Mix Modeling to analyze the impact of pricing and marketing expenses on sales using linear regression. Data wrangling is performed with left joins and right joins to merge product, sales, and marketing datasets at different granular levels. The model evaluates brand equity by ranking brands based on weekly sales while controlling for marketing spend and pricing strategies. Additionally, it discusses endogeneity issues such as omitted variable bias, simultaneity, and measurement errors. Further, instrumental variables and natural experiments are explored to identify causal relationships in marketing analytics. The project ultimately provides valuable insights into how pricing, brand perception, and marketing efforts influence consumer demand.
+
+LondonMap.ipynb:
+
+This project involves geospatial data processing and visualization for analyzing locations in London. It utilizes Python and Jupyter Notebooks to extract and visualize geographic trends. The study involves mapping key locations, transportation routes, and spatial clustering to gain insights into city structure and accessibility. The analysis provides a dynamic and interactive mapping solution for urban analysis and decision-making.
+
+Programming Project (Version 2):
+
+The Programming Project (Version 2) focuses on analyzing tipping behavior in ride-hailing services using machine learning and data science techniques. The project explores factors influencing customer tipping habits, aiming to provide actionable insights for rideshare companies to optimize driver incentives and improve service quality. It involves data preparation, feature engineering, exploratory data analysis (EDA), and machine learning modeling to predict tip amounts. The notebook utilizes Python, Pandas, Scikit-learn, and visualization libraries to process large datasets, extract key trends, and develop predictive models. The findings help rideshare platforms match high-tipping customers with loyal drivers, enhancing driver satisfaction and customer experience while maintaining competitive service reliability. 
+
+RNN.ipynb:
+
+The Rental Neural Network (RNN) Project is a work-in-progress machine learning model designed to predict rental property prices based on scraped property listing data from London. The project aims to assist landlords in estimating expected rental returns by leveraging data preprocessing, exploratory data analysis (EDA), and neural network modeling. The model is developed using TensorFlow and Keras, incorporating structured data processing, feature engineering, and hyperparameter tuning to improve predictive accuracy. It explores different architectures, including Random Forest Regression as a baseline, before transitioning to deep learning-based neural networks. As this project is still evolving, further refinements in data quality, model optimization, and validation techniques are being implemented to enhance reliability. 
